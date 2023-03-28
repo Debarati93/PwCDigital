@@ -16,7 +16,7 @@ Steps to execute project::
 
 2. Build the project to download thee maven dependencies for the project.
 
-3. Execute the CucumberRunner.java file under src/test/java/runner file to execute the existing feature files.
+3. Execute the CucumberRunner.java file under src/test/java/runner file to execute the existing feature files.@Sanity and @Regression tags are used in the CucumberRunner.java file.
 
 4. Check the test-output folder for the spark and html report.
 

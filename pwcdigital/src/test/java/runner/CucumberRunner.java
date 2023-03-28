@@ -31,6 +31,7 @@ import org.junit.runner.RunWith;
         },
         strict = true,
         monochrome = true,
+        tags =      { "@Sanity or @Regression"},
         plugin =    {
                 "pretty", "html:reports/cucumber-html-report",
                 "json:reports/CucumberTestReport.json",

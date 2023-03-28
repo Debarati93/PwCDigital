@@ -1,5 +1,6 @@
 Feature: Validate PwCDigital
 
+  @Sanity
   Scenario Outline: Column verification of Homepage
     Given I navigate to the PwC Digital Pulse website
     When I am viewing the "<Page-name>" page
@@ -11,7 +12,7 @@ Feature: Validate PwCDigital
     | Page-name | ColNum | LCol| MCol | RCol |LeftColumnArticles | MiddleColumnArticles | RightColumnArticles |
     | Home      | 3      | 2      | 1         | 3        | 2     | 1        | 4                   |
 
-
+    @Regression
     Scenario Outline: Contact Us verification
       Given I navigate to the PwC Digital Pulse website
       And I am viewing the "<Page-name>" page
@@ -32,7 +33,7 @@ Feature: Validate PwCDigital
         | Page-name |
         | Home      |
 
-
+    @Regression
     Scenario Outline: Search Result verification
       Given I navigate to the PwC Digital Pulse website
       When I click on the Magnifying glass icon to perform a search

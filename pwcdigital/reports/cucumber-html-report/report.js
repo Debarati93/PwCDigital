@@ -7,7 +7,12 @@ formatter.feature({
 formatter.scenarioOutline({
   "name": "Column verification of Homepage",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
 });
 formatter.step({
   "name": "I navigate to the PwC Digital Pulse website",
@@ -67,7 +72,12 @@ formatter.examples({
 formatter.scenario({
   "name": "Column verification of Homepage",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
@@ -141,7 +151,12 @@ formatter.after({
 formatter.scenarioOutline({
   "name": "Contact Us verification",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
 });
 formatter.step({
   "name": "I navigate to the PwC Digital Pulse website",
@@ -245,7 +260,12 @@ formatter.examples({
 formatter.scenario({
   "name": "Contact Us verification",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
@@ -377,7 +397,12 @@ formatter.after({
 formatter.scenarioOutline({
   "name": "Search Result verification",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
 });
 formatter.step({
   "name": "I navigate to the PwC Digital Pulse website",
@@ -425,7 +450,12 @@ formatter.examples({
 formatter.scenario({
   "name": "Search Result verification",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"

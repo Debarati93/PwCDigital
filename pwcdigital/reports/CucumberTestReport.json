@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3579898600,
+              "duration": 5414415400,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 12,
+        "line": 13,
         "name": "Column verification of Homepage",
         "description": "",
         "id": "validate-pwcdigital;column-verification-of-homepage;;2",
         "after": [
           {
             "result": {
-              "duration": 534500,
+              "duration": 482300,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 406833700,
+              "duration": 378855400,
               "status": "passed"
             },
             "match": {
@@ -43,10 +43,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4266750500,
+              "duration": 9291792300,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I navigate to the PwC Digital Pulse website",
             "match": {
               "location": "HomePageSteps.UserIsInsideHomePage()"
@@ -55,10 +55,10 @@
           },
           {
             "result": {
-              "duration": 114365000,
+              "duration": 183856300,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I am viewing the \"Home\" page",
             "match": {
               "arguments": [
@@ -73,10 +73,10 @@
           },
           {
             "result": {
-              "duration": 41859600,
+              "duration": 29032400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I am presented with \"3\" columns of articles",
             "match": {
               "arguments": [
@@ -91,10 +91,10 @@
           },
           {
             "result": {
-              "duration": 16557000,
+              "duration": 19529500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "The Left \"2\" column is displaying \"2\" articles",
             "match": {
               "arguments": [
@@ -113,10 +113,10 @@
           },
           {
             "result": {
-              "duration": 15743400,
+              "duration": 17039800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "the Middle \"1\" column is displaying \"1\" articles",
             "match": {
               "arguments": [
@@ -135,10 +135,10 @@
           },
           {
             "result": {
-              "duration": 15805300,
+              "duration": 31049500,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "The Right \"3\" is displaying \"4\" articles",
             "match": {
               "arguments": [
@@ -155,13 +155,18 @@
             },
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
         ]
       },
       {
         "before": [
           {
             "result": {
-              "duration": 2160987000,
+              "duration": 2308383600,
               "status": "passed"
             },
             "match": {
@@ -169,14 +174,14 @@
             }
           }
         ],
-        "line": 33,
+        "line": 34,
         "name": "Contact Us verification",
         "description": "",
         "id": "validate-pwcdigital;contact-us-verification;;2",
         "after": [
           {
             "result": {
-              "duration": 274700,
+              "duration": 471200,
               "status": "passed"
             },
             "match": {
@@ -185,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 465106400,
+              "duration": 582488600,
               "status": "passed"
             },
             "match": {
@@ -198,10 +203,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3593773900,
+              "duration": 3763959700,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "I navigate to the PwC Digital Pulse website",
             "match": {
               "location": "HomePageSteps.UserIsInsideHomePage()"
@@ -210,10 +215,10 @@
           },
           {
             "result": {
-              "duration": 96239800,
+              "duration": 105460600,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "I am viewing the \"Home\" page",
             "match": {
               "arguments": [
@@ -228,10 +233,10 @@
           },
           {
             "result": {
-              "duration": 4076985600,
+              "duration": 6729647200,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "I click on the Subscribe navigation link",
             "match": {
               "location": "HomePageSteps.iClickOnTheSubscribeNavigationLink()"
@@ -240,10 +245,10 @@
           },
           {
             "result": {
-              "duration": 148043300,
+              "duration": 134811700,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "I am taken to the Subscribe page",
             "match": {
               "location": "SubscribePageSteps.iAmTakenToTheSubscribePage()"
@@ -252,10 +257,10 @@
           },
           {
             "result": {
-              "duration": 856947300,
+              "duration": 1266111000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "I am presented with the below fields",
             "match": {
               "location": "SubscribePageSteps.iAmPresentedWithTheBelowFields(DataTable)"
@@ -322,15 +327,20 @@
           },
           {
             "result": {
-              "duration": 142021600,
+              "duration": 169483100,
               "status": "passed"
             },
-            "line": 29,
+            "line": 30,
             "name": "I will need to complete Google reCAPTCHA before I can complete my request",
             "match": {
               "location": "SubscribePageSteps.iWillNeedToCompleteGoogleReCAPTCHABeforeICanCompleteMyRequest()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
           }
         ]
       },
@@ -338,7 +348,7 @@
         "before": [
           {
             "result": {
-              "duration": 1959850300,
+              "duration": 2406815300,
               "status": "passed"
             },
             "match": {
@@ -346,14 +356,14 @@
             }
           }
         ],
-        "line": 45,
+        "line": 46,
         "name": "Search Result verification",
         "description": "",
         "id": "validate-pwcdigital;search-result-verification;;2",
         "after": [
           {
             "result": {
-              "duration": 195600,
+              "duration": 222100,
               "status": "passed"
             },
             "match": {
@@ -362,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 466123400,
+              "duration": 441260800,
               "status": "passed"
             },
             "match": {
@@ -375,10 +385,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3473868100,
+              "duration": 3761474700,
               "status": "passed"
             },
-            "line": 37,
+            "line": 38,
             "name": "I navigate to the PwC Digital Pulse website",
             "match": {
               "location": "HomePageSteps.UserIsInsideHomePage()"
@@ -387,10 +397,10 @@
           },
           {
             "result": {
-              "duration": 170125900,
+              "duration": 208310600,
               "status": "passed"
             },
-            "line": 38,
+            "line": 39,
             "name": "I click on the Magnifying glass icon to perform a search",
             "match": {
               "location": "HomePageSteps.iClickOnTheMagnifyingGlassIconToPerformASearch()"
@@ -399,10 +409,10 @@
           },
           {
             "result": {
-              "duration": 202053300,
+              "duration": 304903400,
               "status": "passed"
             },
-            "line": 39,
+            "line": 40,
             "name": "I enter the text \"Single page applications\"",
             "match": {
               "arguments": [
@@ -417,10 +427,10 @@
           },
           {
             "result": {
-              "duration": 982573200,
+              "duration": 2357415800,
               "status": "passed"
             },
-            "line": 40,
+            "line": 41,
             "name": "I submit the search",
             "match": {
               "location": "HomePageSteps.iSubmitTheSearch()"
@@ -429,10 +439,10 @@
           },
           {
             "result": {
-              "duration": 714267200,
+              "duration": 97488600,
               "status": "passed"
             },
-            "line": 41,
+            "line": 42,
             "name": "I am taken to the search results page",
             "match": {
               "location": "SearchResultPageSteps.iAmTakenToTheSearchResultsPage()"
@@ -441,10 +451,10 @@
           },
           {
             "result": {
-              "duration": 18749300,
+              "duration": 13546500,
               "status": "passed"
             },
-            "line": 42,
+            "line": 43,
             "name": "I am presented with at least \"1\" search result",
             "match": {
               "arguments": [
@@ -456,6 +466,11 @@
               "location": "SearchResultPageSteps.iAmPresentedWithAtLeastSearchResult(String)"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
           }
         ]
       }
